@@ -9,7 +9,7 @@ export default function Sidebar() {
         <img src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg" />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus
-          nihil optio laborum ea sed dolores quas
+          nihil optio laborum
         </p>
       </div>
       <div className="sidebarItem">
