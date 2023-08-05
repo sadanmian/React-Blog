@@ -4,6 +4,7 @@
 }
 
 .writeImg {
+  /* background-color: lightgreen; */
   margin-left: 150px;
   width: 70vw;
   height: 250px;
@@ -59,4 +60,47 @@
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .write {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .writeImg {
+    height: 150px;
+    margin-left: 0px;
+  }
+  .writeForm {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .writeFormGroup {
+    /* background-color: lightblue; */
+    margin-left: 0;
+  }
+
+  .writeInput {
+    font-size: 20px;
+    padding: 15px;
+    width: 70vw;
+  }
+
+  .writeText {
+    font-size: 20px;
+    padding: 15px;
+    width: 70vw;
+    height: 40vh;
+  }
+  .writeSubmit {
+    top: 90%;
+    right: 40%;
+  }
 }
