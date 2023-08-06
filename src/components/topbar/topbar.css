@@ -63,7 +63,7 @@
 @media only screen and (max-width: 600px) {
   .top {
     /* background-color: lightblue; */
-    height: 40px;
+    height: 50px;
     display: flex;
     overflow: hidden;
     width: 100%;
