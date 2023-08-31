@@ -8,7 +8,7 @@ import Register from "./pages/register/Register";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const user = false;
+  const user = true;
   return (
     <BrowserRouter>
       <Topbar />
@@ -31,12 +31,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <Route path="/" exact element={<Home></Home>}></Route> 
-      <Route path="/register" element={currentUser ? <Home/> : <Register />} ></Route>
-      <Route path="/login" element={currentUser ? <Home/> : <Login />} ></Route>
-      <Route path="/write" element={currentUser ? <Write /> : <Register />} ></Route>
-      <Route path="/settings" element={currentUser ? <Setting /> : <Register/>} ></Route>
-      <Route path="/post/:postId" element={<Single />} ></Route>  */
-}
